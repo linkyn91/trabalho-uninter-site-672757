@@ -19,13 +19,14 @@
 header {
     background-image: linear-gradient(to bottom, var(--cor3), var(--cor5) );
     color: white;
-    text-shadow: 2px 2px 4px black;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.514);
     padding: 20px;
     min-height: 150px;
     text-align: center;
 }
 header > h1 {
     padding: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.474);
 }
 nav {
     background-color: var(--cor5);
@@ -36,14 +37,16 @@ a {
     padding: 10px;
     color: white;
     text-decoration: none;
-    text-shadow: 2px 2px 4px black;
+    text-shadow: 2px 2px 3px rgb(0, 0, 0);
 }
 a:hover  {
-    background-color: var(--cor3);
+    background-color: rgba(255, 255, 255, 0.231);
     border-radius: 2px 2px 15px 15px;
 }
 body {
-    background-color: black;
+        background-color: rgb(144, 234, 144);
+    
+</style>
 }
 main {
     background-color: white;
@@ -51,4 +54,13 @@ main {
     text-align: justify;
     margin: auto;
     padding: 20px;
+    border-radius: 0px 0px 20px 20px;
+    text-indent: 20px;
+    line-height: 1.5em;    
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.349);
+}
+main img {
+    max-height: 200px;
+    display: block;
+    margin: auto;
 }
